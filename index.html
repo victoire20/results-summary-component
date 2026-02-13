@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body>
+  <main class="container">
+    <div class="card">
+      <div class="card__header">
+        <span class="badge">Your Result</span>
+        <div class="compter">
+          <div class="circle">
+            <span class="participation__percent">76</span>
+            <br>
+            <span class="total">of 100</span>
+          </div>
+        </div>
+        <h1 class="card__header__title">Great</h1>
+        <p class="card__header__content">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+      <div class="card__body">
+        <h2 class="card__body__title">Summary</h2>
+        <div class="card__body__content" id="summary__item">
+          <div class="card__body__item bg__light__red">
+            <div class="item__category">
+              <div class="item__icon">
+                <img src="./assets/images/icon-reaction.svg" alt="Reaction icon">
+              </div>
+              <span class="item__libelle">Reaction</span>
+            </div>
+            <div>
+              <span class="percent">80</span> <span class="hundred__percent">/ 100</span>
+            </div>
+          </div>
+          <div class="card__body__item bg__orange__yellow">
+            <div class="item__category">
+              <div class="item__icon">
+                <img src="./assets/images/icon-memory.svg" alt="Memory icon">
+              </div>
+              <span class="item__libelle">Memory</span>
+            </div>
+            <div>
+              <span class="percent">92</span> <span class="hundred__percent">/ 100</span>
+            </div>
+          </div>
+          <div class="card__body__item bg__green__teal">
+            <div class="item__category">
+              <div class="item__icon">
+                <img src="./assets/images/icon-verbal.svg" alt="Verbal icon">
+              </div>
+              <span class="item__libelle">Verbal</span>
+            </div>
+            <div>
+              <span class="percent">61</span> <span class="hundred__percent">/ 100</span>
+            </div>
+          </div>
+          <div class="card__body__item bg__cobalt__blue">
+            <div class="item__category">
+              <div class="item__icon">
+                <img src="./assets/images/icon-visual.svg" alt="Visual icon">
+              </div>
+              <span class="item__libelle">Visual</span>
+            </div>
+            <div>
+              <span class="percent">72</span> <span class="hundred__percent">/ 100</span>
+            </div>
+          </div>
+        </div>
+        <button class="card__btn">Continue</button>
+      </div>
+    </div>
+  </main>  
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/victoire20/">YABA LOUO JEAN DE DIEU</a>.
+    </div>
+  </footer>
+</body>
+</html>
